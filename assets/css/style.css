@@ -200,6 +200,7 @@ body .container {
 .sidebar .skill-line {
   padding-right: 30px;
   padding-left: 0px;
+  padding-bottom: 20px;
 }
 .sidebar .skill-line .progress {
   background-color: #4783c2;
@@ -497,6 +498,11 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   display: none;
   text-align: left !important;
   margin: 0 0 0 0 !important;
+}
+
+.email span{
+    opacity: 0.7;
+    font-weight: 300;
 }
 
 #msgSubmit {
