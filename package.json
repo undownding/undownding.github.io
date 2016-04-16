@@ -18,5 +18,8 @@
   "homepage": "https://github.com/undownding/cv#readme",
   "dependencies": {
     "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
