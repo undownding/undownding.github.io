@@ -1,0 +1,20 @@
+{
+  "name": "cv",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/undownding/cv",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "Materialize": "materialize#^0.97.6",
+    "validator": "^0.0.5",
+    "wow": "^1.1.2"
+  }
+}
