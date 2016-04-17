@@ -1,0 +1,14 @@
+{
+  "skills": [
+    { "key": "Android", "value": 85 },
+    { "key": "Material Design", "value": 70 },
+    { "key": "Kotlin", "value": 80 },
+    { "key": "node.js", "value": 60 },
+    { "key": "MySQL", "value": 70 },
+    { "key": "Front-End", "value": 40 },
+    { "key": "Docker", "value": 80 },
+    { "key": "Gradle", "value": 85 }
+  ],
+  "mobile_phone": "+86-185-0019-2074",
+  "wechat_id":"+86-185-0019-2074"
+}

@@ -108,8 +108,8 @@
                                        NAME AND TAGLINE
                             ==========================================-->
                             <div class="title col s12 m12 l9 right  wow fadeIn" data-wow-delay="0.1s">   
-                                <h2>赵坤安</h2> <!-- title name -->
-                                <span>Android 高级工程师</span>  <!-- tagline -->
+                                <h2>UnDownDing</h2> <!-- title name -->
+                                <span>Pre-Fullstack Engineer</span>  <!-- tagline -->
                             </div>                         
                         </div>
                          <!-- sidebar info -->
@@ -120,7 +120,7 @@
                                 </div>                                
                                 <div class="col m12 s12 l9 info wow fadeIn a1" data-wow-delay="0.1s" > <!-- text -->
                                     <div class="section-item-details">
-                                        <p>就职于上海东革志网络科技有限公司，负责 GitCafe 客户端的开发与 Android 部门管理。Material Design 信徒，追求优秀的代码质量以及正规的开发流程。Kotlin / Docker / NodeJs 学习中</p>
+                                        <p>As a Senior Android Engineer working at ezbuy.com. Interesting in Docker / node.js / kotlin and Material Design. Using Docker in production enviorment. </p>
                                     </div>             
                                 </div>
                             </div>         
@@ -187,41 +187,12 @@
                                 <div class="col m12 s12 l9 info skill-line wow fadeIn a3" data-wow-delay="0.5s">
                                     <h3>Professional Skills </h3>
 
-                                    <span>Android</span>
+                                    <%skills.forEach(function (e, index) {%>
+                                    <span><%=e.key%></span>
                                     <div class="progress">
-                                        <div class="determinate">85%</div>
+                                        <div class="determinate"><%=e.value%>%</div>
                                     </div>
-
-                                    <span>JAVA</span>
-                                    <div class="progress">
-                                        <div class="determinate">85%</div>
-                                    </div>
-
-                                    <span>Kotlin</span>                                    
-                                    <div class="progress">
-                                        <div class="determinate">65% </div>
-                                    </div>
-
-                                    <span>SQL</span>
-                                    <div class="progress">
-                                        <div class="determinate">70%</div>
-                                    </div>
-
-                                    <span>Docker</span>                                    
-                                    <div class="progress">
-                                        <div class="determinate">60%</div>
-                                    </div>
-
-                                    <span>Gradle</span>
-                                    <div class="progress">
-                                        <div class="determinate">80%</div>
-                                    </div>
-
-                                    <span>Material Design</span>
-                                    <div class="progress">
-                                        <div class="determinate">70%</div>
-                                    </div>
-
+                                    <%})%>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +206,7 @@
                                 <div class="col m12 s12 l9 wow fadeIn a3" data-wow-delay="0.3s">
                                     <div class="section-item-details">
                                         <div class="personal">                                    
-                                            <h4><a href="https://github.com/undownding/" target="_blank">https://github.com/undownding/</a></h4> <!-- Email -->
+                                            <h4><a href="https://github.com/undownding/" target="_blank">@undownding</a></h4> <!-- Email -->
                                             <span>GitHub</span> 
                                         </div>
                                    </div>

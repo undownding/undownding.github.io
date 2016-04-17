@@ -4,7 +4,12 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var htmlmin = require('gulp-htmlmin');
 var cleanCSS = require('gulp-clean-css');
+var ejs = require('gulp-ejs');
 var conact = require('gulp-concat');
+var rename = require('gulp-rename');
+var fs = require('fs');
+
+var personal = JSON.parse(fs.readFileSync('src/personal.json', 'utf8'));
 
 gulp.task('default', function() {
     gulp.run('dependencies');
@@ -16,8 +21,20 @@ gulp.task('default', function() {
 });
 
 gulp.task('index', function () {
-    gulp.src('src/index.html')
-        .pipe(htmlmin({collapseWhitespace: true}))
+    var options = {
+        removeComments: true,
+        collapseWhitespace: true,
+        collapseBooleanAttributes: true,
+        removeEmptyAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        minifyJS: true,
+        minifyCSS: true
+    };
+    gulp.src('src/index.ejs')
+        .pipe(ejs(personal))
+        .pipe(rename({ extname : ".htm" }))
+        .pipe(htmlmin(options))
         .pipe(gulp.dest('dist/'))
 });
 
