@@ -4,4 +4,11 @@
 var ghpages = require('gh-pages');
 var path = require('path');
 
-ghpages.publish(path.join(__dirname, 'dist'));
+ghpages.publish(path.join(__dirname, 'dist'), {
+    branch: 'master',
+    repo: 'git@github.com:undownding/undownding.github.io',
+    user: {
+        name: 'undownding',
+        email: 'undownding@gmail.com'
+    }
+},function (err) { console.log(err) });
