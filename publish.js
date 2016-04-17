@@ -6,7 +6,7 @@ var path = require('path');
 
 ghpages.publish(path.join(__dirname, 'dist'), {
     branch: 'master',
-    repo: 'git@github.com:undownding/undownding.github.io',
+    repo: 'git@github.com:undownding/undownding.github.io.git',
     user: {
         name: 'undownding',
         email: 'undownding@gmail.com'
