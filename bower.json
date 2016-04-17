@@ -12,8 +12,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^2.2.3",
-    "Materialize": "materialize#^0.97.6",
+    "bootstrap-validator": "^0.10.2",
+    "font-awesome": "^4.6.1",
     "validator": "^0.0.5",
     "wow": "^1.1.2"
   }
