@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/undownding/cv.git"
+    "url": "git+https://github.com/undownding/undownding.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/undownding/cv/issues"
+    "url": "https://github.com/undownding/undownding.github.io/issues"
   },
-  "homepage": "https://github.com/undownding/cv#readme",
+  "homepage": "https://undownding.github.io/",
   "devDependencies": {
     "ejs": "^2.4.1",
     "fs": "^0.0.2",
+    "gh-pages": "^0.11.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.6",
     "gulp-concat": "^2.6.0",
