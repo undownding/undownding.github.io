@@ -238,12 +238,32 @@
 
                 </aside><!-- end sidebar -->
 
-                <!-- =========================================
-                   Work experiences
-                ==========================================-->
-
                 <section class="col s12 m12 l8 section">
                     <div class="row">
+
+
+                        <!--=======================================
+                          self-introduction
+                        ==========================================-->
+
+                        <div class="section-wrapper z-depth-1">
+                            <div class="section-icon col s12 m12 l2">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s" >
+                                <h2>Self-Introduction </h2>
+                                <%introduction.forEach(function (e, index) {%>
+                                <div class="custom-content-wrapper wow fadeIn a<%=index+2%>" data-wow-delay="0.<%=index+2%>s" >
+                                    <p><%-e%><p>
+                                </div>
+                                <%})%>
+                            </div>
+                        </div>
+
+
+                        <!-- =========================================
+                           Work experiences
+                        ==========================================-->
                         <div class="section-wrapper z-depth-1">                            
                             <div class="section-icon col s12 m12 l2">
                                 <i class="fa fa-suitcase"></i>
@@ -251,21 +271,13 @@
                             <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
                                 <h2>Work Experience</h2>
 
-                                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s">
-                                    <h3>Android Team Leader <span>@D.G.Z</span></h3>
-                                    <span>MAY 2014 - NOW </span>
-                                    <p>负责 GitCafe Android 客户端的开发以及工作协调。与 Ruby 后端写的 REST API 通信并通过 GSON / DataBinder 等第三方开源库把服务器内容以 MVP + MVVM 方式展示到客户端。</p>
+                                <%work.forEach(function (e, index) {%>
+                                <div class="custom-content-wrapper wow fadeIn a<%=index+2%>" data-wow-delay="0.<%=index+2%>s">
+                                    <h3><%=e.title%> <span>@<%=e.company%></span></h3>
+                                    <span><%=e.date%></span>
+                                    <p><%=e.text%></p>
                                 </div>
-                                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.3s">
-                                    <h3>Android Framework Engineer <span>@SnailGames</span></h3>
-                                    <span>JULY 2013 - MAY 2014 </span>
-                                    <p>在全国第一批虚拟运营商之一的蜗牛移动，前期负责手机 ROM 开发部分，后期慢慢转型为 Android App 开发。</p>
-                                </div>
-                                <div class="custom-content-wrapper wow fadeIn a4" data-wow-delay="0.4s">
-                                    <h3>Android Framework Engineer <span>@1616.net</span></h3>
-                                    <span>FEB 2012 - JULY 2013 </span>
-                                    <p>在北京一路创科网络科技有限公司参与第三方 Android ROM：深度 OS 的开发工作。主要任务是 Android Framework 层功能完善 / BUG 修复，工作之余研究了下机型适配 / Recovery 制作等等。</p>
-                                </div>
+                                <%})%>
                             </div>                            
                         </div>
 
@@ -279,36 +291,14 @@
                             </div>
                             <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s" >
                                 <h2>Education </h2>
-                                
-                                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
-                                    <h3>Communication Engineering <span>@SZPT</span></h3>
-                                    <span>SEP 2009 - JUN 2012 </span>
-                                    <p>在深圳职业技术学院学习通信工程专业课程，大学期间自学了 C# 和 Java，所有编程相关课程高分通过。</p>
+
+                                <%education.forEach(function (e, index) {%>
+                                <div class="custom-content-wrapper wow fadeIn a<%=index+2%>" data-wow-delay="0.<%=index+2%>s" >
+                                    <h3><%=e.professional%> <span>@<%=e.school%></span></h3>
+                                    <span><%=e.date%></span>
+                                    <p><%=e.text%></p>
                                 </div>
-                                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.3s" >
-                                    <h3>Physical <span>@GDZQZX</span></h3>
-                                    <span>SEP 2003 - JUN 2009 </span>
-                                    <p>在广东肇庆中学学习期间开始学习编程并参加 OI 竞赛，取得 NOIP 提高组全国二等奖一次，省级市级奖励若干次。</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <!--=======================================
-                          self-introduction
-                        ==========================================-->
-                        
-                        <div class="section-wrapper z-depth-1">
-                            <div class="section-icon col s12 m12 l2">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                                <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s" >
-                                <h2>Self-Introduction </h2>
-                                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
-                                <p>厚着面皮说一句自认为自己是水平不低的开发者。在上家公司担任的是 Android Team Leader 职位，负责 Android App 的架构设计与代码实现。 <br><br>因为工作关系接触的比较多的都是 Hack 文化相关的事情，所以个人比较追求成熟的开发流程（Code Review，CI，Unit Test，Git-Flow 等等），于是期望贵司 Android 项目处于刚起步的状态，或者已经有成熟的、靠谱的开发流程。<br><br> 上家公司是一家钱烧光的 start-up 公司，因为个人来说存款还够支撑一段比较长时间的生活，所以最近都在家休息。原则上不捉急找工作，但如果有非常满意的会考虑的。 <br><br>最后说一句，如果是看重学历的公司就算了，虽然也去北大和北航讲过两次讲座但我也就大专学历，如果贵司会因为这点对人看不起的话我觉得我们不是同一路人。<p>
-                                </div>
-                                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.3s" ><p>以下是所掌握的技能树： <br><br>算法和面向对象熟悉（OI出身），设计模式自学，有一定了解。熟练在 Android 开发中使用 MVC / MVP / MVVM 模式。 <br><br>蓝牙 / Socket 通信曾做过简单的，对 http 协议有深入了解，包括请求方式 / 状态码，通信过程等等。能熟练使用 http + json 跟Web服务器进行通信。<br><br> 能熟练使用 svn / git 进行版本管理，一直采用 git-flow 工作流方式。 习惯 Android Studio 开发，熟悉 gradle 脚本，有针对 Jekins CI 调整 gradle 脚本的经验。<br><br> 熟悉 Mataril Design 风格的实现，以及针对不同的屏幕、系统版本等手机做兼容。 <br><br>习惯在 Linux 下开发，vim 用户。<br><br> Android每个版本更新后都第一时间去看开发文档，了解新的API接口以及老API的变化。<p>
-                                </div>
+                                <%})%>
                             </div>
                         </div>
 
