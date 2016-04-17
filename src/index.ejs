@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         
         <!-- TITLE OF SITE-->
-        <title> 赵坤安 - undownding </title>
+        <title><%=page_title%></title>
         
         <!-- META TAG -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,8 +108,8 @@
                                        NAME AND TAGLINE
                             ==========================================-->
                             <div class="title col s12 m12 l9 right  wow fadeIn" data-wow-delay="0.1s">   
-                                <h2>UnDownDing</h2> <!-- title name -->
-                                <span>Pre-Fullstack Engineer</span>  <!-- tagline -->
+                                <h2><%=name%></h2> <!-- title name -->
+                                <span><%=tag%></span>  <!-- tagline -->
                             </div>                         
                         </div>
                          <!-- sidebar info -->
@@ -120,12 +120,13 @@
                                 </div>                                
                                 <div class="col m12 s12 l9 info wow fadeIn a1" data-wow-delay="0.1s" > <!-- text -->
                                     <div class="section-item-details">
-                                        <p>As a Senior Android Engineer working at ezbuy.com. Interesting in Docker / node.js / kotlin and Material Design. Using Docker in production enviorment. </p>
+                                        <p><%=presentation%></p>
                                     </div>             
                                 </div>
                             </div>         
                         </div>
                         <!-- MOBILE NUMBER -->
+                        <%if(typeof(mobile_phone)!='undefined')  {%>
                         <div class="col l12 m12 s12  mobile sidebar-item">
                             <div class="row">                                
                                 <div class="col m12 s12 l3 icon">
@@ -134,13 +135,15 @@
                                 <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" >
                                     <div class="section-item-details">
                                         <div class="personal">
-                                            <h4><a href="tel:+86-185-0019-2074">+86-185-0019-2074</a></h4> <!-- Number -->             
+                                            <h4><a href="tel:<%=mobile_phone%>"><%=mobile_phone%></a></h4> <!-- Number -->
                                             <span>mobile</span> 
                                         </div>
                                     </div>
                                 </div>
                             </div>             
                         </div>
+                        <%}%>
+                        <%if(typeof(wechat_id)!='undefined')  {%>
                         <!-- WeiXin -->
                         <div class="col l12 m12 s12  mobile sidebar-item">
                             <div class="row">                                
@@ -150,13 +153,14 @@
                                 <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" >
                                     <div class="section-item-details">
                                         <div class="personal">
-                                            <h4>+86-185-0019-2074</h4> <!-- Number -->             
+                                            <h4><%=wechat_id%></h4> <!-- Number -->
                                             <span>wechat</span> 
                                         </div>
                                     </div>
                                 </div>
                             </div>             
                         </div>
+                        <%}%>
                         <!--  EMAIL -->
                         <div class="col l12 m12 s12  email sidebar-item ">
                             <div class="row">                                
@@ -199,30 +203,34 @@
 
                         <!-- LINK -->
                         <div class="col l12 m12 s12  email sidebar-item ">
-                            <div class="row">                                
+                            <div class="row">
+                                <%if(typeof(github)!='undefined')  {%>
                                 <div class="col m12 s12 l3 icon">
                                     <i class="fa fa-github"></i> <!-- icon -->
                                 </div>                                
                                 <div class="col m12 s12 l9 wow fadeIn a3" data-wow-delay="0.3s">
                                     <div class="section-item-details">
                                         <div class="personal">                                    
-                                            <h4><a href="https://github.com/undownding/" target="_blank">@undownding</a></h4> <!-- Email -->
+                                            <h4><a href="https://github.com/<%=github%>/" target="_blank">@<%=github%></a></h4> <!-- Email -->
                                             <span>GitHub</span> 
                                         </div>
                                    </div>
                                 </div>
-         
+                                <%}%>
+
+                                <%if(typeof(blog)!='undefined')  {%>
                                 <div class="col m12 s12 l3 icon">
                                     <i class="fa fa-file-text"></i> <!-- icon -->
                                 </div>                
                                 <div class="col m12 s12 l9 wow fadeIn a3" data-wow-delay="0.3s">   
                                     <div class="section-item-details">      
                                         <div class="personal">                                 
-                                            <h4><a href="http://undownding.me" target="_blank">http://undownding.me/</a></h4> <!-- Email -->
+                                            <h4><a href="<%=blog%>" target="_blank"><%=blog%></a></h4> <!-- Email -->
                                             <span>Blog</span> <br>
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
+                                <%}%>
                             </div>          
                         </div>
 
