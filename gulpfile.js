@@ -7,6 +7,7 @@ var cleanCSS = require('gulp-clean-css');
 var ejs = require('gulp-ejs');
 var conact = require('gulp-concat');
 var fs = require('fs');
+var clean = require('gulp-clean');
 
 var personal = JSON.parse(fs.readFileSync('src/personal.json', 'utf8'));
 
@@ -112,4 +113,9 @@ gulp.task('wow', function () {
 gulp.task('material-icons', function () {
     gulp.src('bower_components/material-design-icons/iconfont/*')
         .pipe(gulp.dest('dist/assets/fonts/material-design-icons/'));
+});
+
+gulp.task('clean', function () {
+    return gulp.src('dist/', { read: false })
+        .pipe(clean());
 });
