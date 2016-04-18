@@ -6,7 +6,6 @@ var htmlmin = require('gulp-htmlmin');
 var cleanCSS = require('gulp-clean-css');
 var ejs = require('gulp-ejs');
 var conact = require('gulp-concat');
-var rename = require('gulp-rename');
 var fs = require('fs');
 
 var personal = JSON.parse(fs.readFileSync('src/personal.json', 'utf8'));
@@ -33,7 +32,7 @@ gulp.task('index', function () {
     };
     gulp.src('src/index.ejs')
         .pipe(ejs(personal))
-        .pipe(rename({ extname : ".htm" }))
+        .pipe(rename({ extname : ".html" }))
         .pipe(htmlmin(options))
         .pipe(gulp.dest('dist/'))
 });
