@@ -15,6 +15,7 @@
     "bootstrap-validator": "^0.10.2",
     "font-awesome": "^4.6.1",
     "validator": "^0.0.5",
-    "wow": "^1.1.2"
+    "wow": "^1.1.2",
+    "Materialize": "materialize#^0.97.6"
   }
 }
