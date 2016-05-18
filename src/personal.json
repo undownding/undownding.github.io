@@ -28,7 +28,7 @@
     {
       "title": "Android Senior Engineer",
       "company": "ezbuy.com",
-      "date": "JAN 2016 - Now",
+      "date": "JAN 2016 - NOW",
       "text":"参与 EzBuy Android 客户端的日常开发工作，以及负责 CI 系统的 Docker 镜像维护 / i18n方案调研 / 架构设计 / 各种代码优化以及重构旧代码等各种奇奇怪怪的任务。"
     },
     {
@@ -45,7 +45,7 @@
     },{
       "title": "Android Framework Engineer",
       "company": "1616.net",
-      "date": "JULY 2013 - MAY 2014",
+      "date": "FEB 2012 - JUN 2013",
       "text": "在北京一路创科网络科技有限公司参与第三方 Android ROM：深度 OS 的开发工作。主要任务是 Android Framework 层功能完善 / BUG 修复，工作之余研究了下机型适配 / Recovery 制作 / Linux 相关知识等等。"
     }
   ],
