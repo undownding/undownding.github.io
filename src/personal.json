@@ -29,7 +29,7 @@
       "title": "Android Senior Engineer",
       "company": "ezbuy.com",
       "date": "JAN 2016 - NOW",
-      "text":"参与 EzBuy Android 客户端的日常开发工作，以及负责 CI 系统的 Docker 镜像维护 / i18n方案调研 / 架构设计 / 各种代码优化以及重构旧代码等各种奇奇怪怪的任务。<br><br>工作内容：使用 node.js + java 实现前后端，客户端的多语言统一方案（使用 GetText 的 PO 格式作为中间格式）; 使用 Jenkins + Docker 实现 Android 团队的持续交付; 网络模块使用公司的开源项目 tgen 自动根据 API 文档生成代码，并持续部署到内网的 Maven Repository 上（on Docker）"
+      "text":"参与 EzBuy Android 客户端的日常开发工作，以及负责 CI 系统的 Docker 镜像维护 / i18n方案调研 / 架构设计 / 各种代码优化以及重构旧代码等各种奇奇怪怪的任务。<br><br>工作内容：使用 node.js + java 实现前后端，客户端的多语言统一方案（使用 GetText 的 PO 格式作为中间格式）; 使用 Jenkins + Docker 实现 Android 团队的持续交付; 网络模块使用公司的开源项目 tgen 自动根据 API 文档生成代码，并持续部署到内网的 Maven Repository 上（on Docker）。"
     },
     {
       "title": "Android Team Leader",
