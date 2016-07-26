@@ -53,11 +53,13 @@
     {
       "professional": "Communication Engineering",
       "school": "SZPT",
+      "date": "SEP 2009 - JUN 2012",
       "text": "在深圳职业技术学院学习通信工程专业课程，大学期间自学了 C# 和 Java。"
     },
     {
       "professional": "Physical",
       "school": "Guangdong Zhaoqing Middle School",
+      "date": "SEP 2003 - JUN 2009",
       "text": "中学期间开始学习编程并参加 OI 竞赛，取得 NOIP 市到国家级奖项若干次。"
     }
   ]
