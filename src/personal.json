@@ -21,14 +21,14 @@
   "github": "undownding",
   "blog": "http://undownding.me/",
   "introduction": [
-    "4年经验 Android 开发者，水平约等于阿里 P7，观望上海 / 深圳地区技术导向型创业公司的岗位。 <br><br>Material Design 粉 / Google 粉 / 索尼粉，目前因之前的 Sony Z3 Compact 扑街了而在用 Lumia 950。",
+    "4年经验 Android 开发者，水平约等于阿里 P7，Node.js 基金会成员，观望上海 / 深圳地区技术导向型创业公司的岗位。 <br><br>Material Design 粉 / Google 粉 / 索尼粉，目前因之前的 Sony Z3 Compact 扑街了而在用 Lumia 950。",
     "Android 方面熟悉官方数个 support 包的使用，kotlin 老司机，熟悉 RxJava + Retrofit 的使用，数据库方面偏向于使用 NoSQL 作为 Android 的存储。对设计模式以及 Android App 架构的设计都小有心得。<br><br>其他技术方面，node.js 写一些查询数据库然后变成 Api 的程序问题不大。前端也在兴趣列表，正在缓慢学习中。<br><br>对 Docker 有比较深入的理解，曾使用 Docker Remote Api 开发过 Android 应用。<br><br>热衷于开源项目，为 <a href=\"http://www.mokeedev.com/\"><font color=\"#5da4d9\">MoKee Open Source Project</font></a> 数个关键技术点的开发者之一，<a href=\"https://nodejs.org/zh-cn/\"><font color=\"#5da4d9\">Node.js 官方网站</font></a> 中文翻译贡献者。"
   ],
   "work": [
     {
       "title": "Android Senior Engineer",
       "company": "ezbuy.com",
-      "date": "JAN 2016 - NOW",
+      "date": "JAN 2016 - AUG 2016",
       "text":"参与 EzBuy Android 客户端的日常开发工作，以及负责 CI 系统的 Docker 镜像维护 / i18n方案调研 / 架构设计 / 各种代码优化以及重构旧代码等各种奇奇怪怪的任务。<br><br>工作内容：使用 node.js + java 实现前后端，客户端的多语言统一方案（使用 GetText 的 PO 格式作为中间格式）; 使用 Jenkins + Docker 实现 Android 团队的持续交付; 网络模块使用公司的开源项目 tgen 自动根据 API 文档生成代码，并持续部署到内网的 Maven Repository 上（on Docker）。"
     },
     {
