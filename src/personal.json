@@ -3,7 +3,7 @@
   "ga_id": "UA-59289354-2",
   "name": "UnDownDing",
   "tag": "Pre-Fullstack Engineer",
-  "presentation": "As a Senior Android Engineer working at ezbuy.com. Interesting in Docker / node.js / kotlin and Material Design. Using Docker in production enviorment. ",
+  "presentation": "As a Senior Android Engineer worked at ezbuy.com. Interesting in Docker / node.js / kotlin and Material Design. Using Docker in production enviorment. ",
   "mobile_phone": "+86-185-0019-2074",
   "wechat_id":"+86-185-0019-2074",
   "personal_mail": "undownding@gmail.com",
@@ -21,32 +21,27 @@
   "github": "undownding",
   "blog": "http://undownding.me/",
   "introduction": [
-    "4年经验 Android 开发者，水平约等于阿里 P7，Node.js 基金会成员，观望上海 / 深圳地区技术导向型创业公司的岗位。 <br><br>Material Design 粉 / Google 粉 / 索尼粉，目前因之前的 Sony Z3 Compact 扑街了而在用 Lumia 950。",
-    "Android 方面熟悉官方数个 support 包的使用，kotlin 老司机，熟悉 RxJava + Retrofit 的使用，数据库方面偏向于使用 NoSQL 作为 Android 的存储。对设计模式以及 Android App 架构的设计都小有心得。<br><br>其他技术方面，node.js 写一些查询数据库然后变成 Api 的程序问题不大。前端也在兴趣列表，正在缓慢学习中。<br><br>对 Docker 有比较深入的理解，曾使用 Docker Remote Api 开发过 Android 应用。<br><br>热衷于开源项目，为 <a href=\"http://www.mokeedev.com/\"><font color=\"#5da4d9\">MoKee Open Source Project</font></a> 数个关键技术点的开发者之一，<a href=\"https://nodejs.org/zh-cn/\"><font color=\"#5da4d9\">Node.js 官方网站</font></a> 中文翻译贡献者。"
+    "5 年经验 Android 开发者，其中 2 年 Kotlin 经验（从大约 0.8 版本开始使用），3 年带领 5 人以下研发小组经验。<br><br>入门级全栈工程师，Bootstrap / ReactNative 略有接触，Node.js 可以写出临时解决问题的脚本或后端业务，此页面正是使用 gulp + ejs 构建 : )<br><br>熟悉敏捷开发相关的实践和理论，推崇看板方法以及 TDD 模式推动研发工作。",
+    "Linux / GNOME3 / vim 用户，Intellij Idea 正版付费用户，熟练使用 Git-Flow / GitHub-Flow 工作流。<br><br>对 Docker 有比较深入的理解，曾使用 Docker Remote Api 开发过 Android 应用。<br><br>热衷于开源项目，为 <a href=\"http://www.mokeedev.com/\"><font color=\"#5da4d9\">MoKee Open Source Project</font></a> 数个关键技术点的开发者之一，<a href=\"https://nodejs.org/zh-cn/\"><font color=\"#5da4d9\">Node.js 官方网站</font></a> 中文翻译贡献者，Node.js 基金会成员。"
   ],
   "work": [
+    {
+      "title": "Client Engineer",
+      "company": "风暴云文档",
+      "date": "AUG 2016 - NOW",
+      "text":"在朋友的创业项目担任客户端工程师，分别使用原生 Android 以及 ReactNative 实现两个版本的客户端。使用 Node.js 帮助处理一些后端业务以及协助把其他业务处理成 Docker 镜像并部署到服务器。<br><br>"
+    },
     {
       "title": "Android Senior Engineer",
       "company": "ezbuy.com",
       "date": "JAN 2016 - AUG 2016",
-      "text":"参与 EzBuy Android 客户端的日常开发工作，以及负责 CI 系统的 Docker 镜像维护 / i18n方案调研 / 架构设计 / 各种代码优化以及重构旧代码等各种奇奇怪怪的任务。<br><br>工作内容：使用 node.js + java 实现前后端，客户端的多语言统一方案（使用 GetText 的 PO 格式作为中间格式）; 使用 Jenkins + Docker 实现 Android 团队的持续交付; 网络模块使用公司的开源项目 tgen 自动根据 API 文档生成代码，并持续部署到内网的 Maven Repository 上（on Docker）。"
+      "text":"参与 EzBuy Android 客户端的日常开发工作以及制定工作计划，以及负责 CI 系统的 Docker 镜像维护 / 架构设计 / 各种代码优化以及重构旧代码等工作内容。<br><br>"
     },
     {
       "title": "Android Team Leader",
-      "company": "D.G.Z",
+      "company": "GitCafe",
       "date": "MAY 2014 - OCT 2015",
       "text": "负责 GitCafe Android 客户端的开发以及工作协调。与 Ruby 后端写的 REST API 通信并通过 GSON / DataBinder 等第三方开源库把服务器内容以 MVP + MVVM 方式展示到客户端。"
-    },
-    {
-      "title": "Android Framework Engineer",
-      "company": "SnailGames",
-      "date": "JULY 2013 - MAY 2014",
-      "text": "开发蜗牛移动业务相关的免商店 Android 版本以及负责手机 ROM 的开发工作。"
-    },{
-      "title": "Android Framework Engineer",
-      "company": "1616.net",
-      "date": "FEB 2012 - JUN 2013",
-      "text": "在北京一路创科网络科技有限公司参与第三方 Android ROM：深度 OS 的开发工作。主要任务是 Android Framework 层功能完善 / BUG 修复，工作之余研究了下机型适配 / Recovery 制作 / Linux 相关知识等等。"
     }
   ],
   "education": [
