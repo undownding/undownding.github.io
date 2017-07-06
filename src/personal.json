@@ -3,7 +3,7 @@
   "ga_id": "UA-59289354-2",
   "name": "UnDownDing",
   "tag": "Pre-Fullstack Engineer",
-  "presentation": "As a Senior Android Engineer worked at ezbuy.com. Interesting in Docker / node.js / kotlin and Material Design. Using Docker in production enviorment. ",
+  "presentation": "As a Senior Android Engineer worked at ezbuy.com. Interested in Docker / node.js / kotlin and Material Design. Using Docker in production enviorment. ",
   "mobile_phone": "+86-185-0019-2074",
   "wechat_id":"+86-185-0019-2074",
   "personal_mail": "undownding@gmail.com",
@@ -26,9 +26,15 @@
   ],
   "work": [
     {
+      "title": "Android Engineer",
+      "company": "SujiTech",
+      "date": "APR 2017 - NOW",
+      "text":"负责规划 Pandas QA 的 Android 客户端开发，实现产品功能以及提出产品规划上的建议。<br><br>"
+    },
+    {
       "title": "Client Engineer",
       "company": "风暴云文档",
-      "date": "AUG 2016 - NOW",
+      "date": "AUG 2016 - FEB 2017",
       "text":"在朋友的创业项目担任客户端工程师，分别使用原生 Android 以及 ReactNative 实现两个版本的客户端。使用 Node.js 帮助处理一些后端业务以及协助把其他业务处理成 Docker 镜像并部署到服务器。<br><br>"
     },
     {
